@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body class="bg-secondary">
+<div class="container">
+    <div class="row my-5">
+        <div class="col-md-6">
+            <ul class="list-unstyled">
+                <li class="d-inline-block dropdown">
+                    <button  type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">menu1</button>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item"><a href="#">menu 1.1</a></li>
+                        <li class="dropdown-item"><a href="#">menu 1.2</a></li>
+                        <li class="dropdown-item"><a href="#">menu 1.3</a></li>
+                        <li class="dropdown-item"><a href="#">menu 1.4</a></li>
+                        <li class="dropdown-item"><a href="#">menu 1.5</a></li>
+                    </ul>
+                </li>
+                <li class="d-inline-block"><button type="button" class="btn btn-primary" data-toggle="dropdown">menu2</button></li>
+
+                <li class="d-inline-block"><button type="button" class="btn btn-primary">menu3</button></li>
+            </ul>
+        </div>
+        <div class="col-md-6">
+            <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#myBox">click me</button>
+            <div class="mt-4 collapse show" id="myBox">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Deserunt eveniet ex fugiat, impedit, iure laborum magni molestias necessitatibus n
+                    emo nulla quibusdam repellat repellendus repudiandae sint tenetur velit voluptas.
+                    Iusto, non!
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row my-5">
+        <div class="col-md-12">
+            <ul class="nav-tabs nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-toggle="tab" data-target="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-toggle="tab" data-target="#home1">Home 1</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-toggle="tab" data-target="#home2">Home 2</a>
+                </li>
+            </ul>
+
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="home">
+                    <h4 class="card-title"> about home</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem cum dolor es ducimus enim est excepturi harum
+                        impedit ipsum laboriosam, nisi nulla optio pariatur perspiciatis possimus rem s
+                        int tempora tempore temporibus!
+                    </p>
+                </div>
+                <div class="tab-pane fade" id="home1">
+                    <h4 class="card-title" > about home1</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem cum dolor es ducimus enim est excepturi harum
+                        impedit ipsum laboriosam, nisi nulla optio pariatur perspiciatis possimus rem s
+                        int tempora tempore temporibus!
+                    </p>
+                </div>
+                <div class="tab-pane fade" id="home2">
+                    <h4 class="card-title"> about home2</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem cum dolor es ducimus enim est excepturi harum
+                        impedit ipsum laboriosam, nisi nulla optio pariatur perspiciatis possimus rem s
+                        int tempora tempore temporibus!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/jQuery.min.js"></script>
+<script src="js/src/popover.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
